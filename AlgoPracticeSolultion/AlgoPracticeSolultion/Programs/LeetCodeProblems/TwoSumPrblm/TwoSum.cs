@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace AlgoPracticeSolultion
 {
-    class Program
+    class TwoSum
     {
         static void Main(string[] args)
         {
             var nums = new int[] { 3, 3, 4 };
-            var result = TwoSum(nums, 6);
+            var result = TwoSumFunction(nums, 6);
             Console.WriteLine($"{result[0]}\t {result[1]}");
             Console.ReadLine();
         }
-        public static int[] TwoSum(int[] nums, int target)
+        public static int[] TwoSumFunction(int[] nums, int target)
         {
 
 
