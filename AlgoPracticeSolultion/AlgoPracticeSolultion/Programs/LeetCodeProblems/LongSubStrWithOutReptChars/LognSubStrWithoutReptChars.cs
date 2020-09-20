@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AlgoPracticeSolultion
 {
-    class Program
+    class LognSubStrWithoutReptChars
     {
         static void Main(string[] args)
         {
