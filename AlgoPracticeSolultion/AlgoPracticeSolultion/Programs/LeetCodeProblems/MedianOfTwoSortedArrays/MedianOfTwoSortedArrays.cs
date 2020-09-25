@@ -10,7 +10,7 @@ namespace AlgoPracticeSolultion
     {
         static void Main(string[] args)
         {
-            var result = GetMedianOfTwoSortedArrayOf(new int[] { 1,3,5,7,9,11 }, new int[] { 2,4,6,8,10,12});
+            var result = GetMedianOfTwoSortedArrayOf(new int[] { 1, 3, 5, 7, 9, 11 }, new int[] { 2, 4, 6, 8, 10, 12 });
             Console.WriteLine($"{result}");
             Console.ReadLine();
         }
