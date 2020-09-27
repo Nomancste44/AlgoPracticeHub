@@ -18,7 +18,7 @@ namespace AlgoPracticeSolultion
             while (i < hashedString.Length)
             {
                 if (i < right) length[i] = Math.Min(length[2 * center - i], right - i);
-                while ( i - length[i]-1 >= 0  && i + length[i]+1 <hashedString.Length && hashedString[i + length[i]+1] == hashedString[i - length[i]-1]) length[i]++;
+                while (i - length[i] - 1 >= 0 && i + length[i] + 1 < hashedString.Length && hashedString[i + length[i] + 1] == hashedString[i - length[i] - 1]) length[i]++;
 
                 if (i + length[i] > right)
                 {
